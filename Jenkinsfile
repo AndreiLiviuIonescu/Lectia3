@@ -29,7 +29,7 @@ pipeline {
               echo 'execute on WinOSAgent'
             }
 
-            sleep 5
+            sleep 10
           }
         }
 
