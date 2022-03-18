@@ -15,7 +15,7 @@ pipeline {
       parallel {
         stage('Run shell 1') {
           steps {
-            node(label: 'build-in') {
+            node(label: 'built-in') {
               echo 'execute on built-in agent'
             }
 
